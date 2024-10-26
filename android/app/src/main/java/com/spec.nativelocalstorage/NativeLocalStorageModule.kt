@@ -1,4 +1,4 @@
-package com.nativelocalstorage
+package com.spec.nativelocalstorage
 
 import android.content.Context
 import com.facebook.react.bridge.ReactApplicationContext

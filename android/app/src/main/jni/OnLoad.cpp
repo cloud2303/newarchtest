@@ -35,6 +35,7 @@
 #include <rncore.h>
 
 #include <NativeSampleModule.h>
+
 #ifdef REACT_NATIVE_APP_CODEGEN_HEADER
 #include REACT_NATIVE_APP_CODEGEN_HEADER
 #endif
@@ -74,7 +75,6 @@ namespace facebook::react
         // if (name == NativeCxxModuleExample::kModuleName) {
         //   return std::make_shared<NativeCxxModuleExample>(jsInvoker);
         // }
-        // This code register the module so that when the JS side asks for it, the app can return it
         if (name == NativeSampleModule::kModuleName)
         {
             return std::make_shared<NativeSampleModule>(jsInvoker);

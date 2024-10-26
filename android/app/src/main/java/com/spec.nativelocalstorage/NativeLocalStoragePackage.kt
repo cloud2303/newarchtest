@@ -1,4 +1,4 @@
-package com.nativelocalstorage
+package com.spec.nativelocalstorage
 
 import com.facebook.react.TurboReactPackage
 import com.facebook.react.bridge.NativeModule
